@@ -10,10 +10,9 @@ GlobalPhone parses, validates, and formats local and international phone numbers
 
 ## Installation
 
-1. Add the `global_phone` gem to your app. For example, using Bundler:
+1. Add the `global_phone` gem to your app.
 
-        $ echo "gem 'global_phone'" >> Gemfile
-        $ bundle install
+        gem 'global_phone', git: "git://github.com/archdaily/global_phone"
 
 2. Use `global_phone_dbgen` to convert Google's libphonenumber `PhoneNumberMetaData.xml` file into a JSON database for GlobalPhone.
 
